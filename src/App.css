@@ -6,10 +6,3 @@
 */
 
 /* simple - enter transition 300ms, exit 150ms */
-.transition {
-  position: absolute;
-  opacity: 1;
-  background-color: blueviolet;
-  width: 100%;
-  height: 100vh;
-}
