@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/diogenes-club/static/css/main.a8061995.css",
-    "main.js": "/diogenes-club/static/js/main.bfca4cf3.js",
+    "main.css": "/diogenes-club/static/css/main.8707c5ef.css",
+    "main.js": "/diogenes-club/static/js/main.ad1bfee8.js",
     "static/js/787.34981071.chunk.js": "/diogenes-club/static/js/787.34981071.chunk.js",
+    "static/media/bandera.png": "/diogenes-club/static/media/bandera.51159a111e4eac4a5d53.png",
     "index.html": "/diogenes-club/index.html",
-    "main.a8061995.css.map": "/diogenes-club/static/css/main.a8061995.css.map",
-    "main.bfca4cf3.js.map": "/diogenes-club/static/js/main.bfca4cf3.js.map",
+    "main.8707c5ef.css.map": "/diogenes-club/static/css/main.8707c5ef.css.map",
+    "main.ad1bfee8.js.map": "/diogenes-club/static/js/main.ad1bfee8.js.map",
     "787.34981071.chunk.js.map": "/diogenes-club/static/js/787.34981071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8061995.css",
-    "static/js/main.bfca4cf3.js"
+    "static/css/main.8707c5ef.css",
+    "static/js/main.ad1bfee8.js"
   ]
 }
