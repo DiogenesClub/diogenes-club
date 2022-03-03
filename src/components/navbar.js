@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Menu, LogoContainer, MenuItem, MenuItemLink, Wrapper, MobileIcon } from './navbar.style'
-import { FaBars, FaHome, FaTimes, FaUserAlt } from "react-icons/fa";
+import { FaBars, FaHome, FaTimes, FaUserAlt, FaRegCalendar, FaBlog, FaArchway, FaBook } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
 
 export const Navbar = () => {
@@ -11,7 +11,6 @@ export const Navbar = () => {
             <IconContext.Provider value={{style:{fontSize:"2em"}}}>
             <LogoContainer>
                 <img src='./bandera.png' alt=''/>
-                <p>Diógenes Club</p>
             </LogoContainer>
             <MobileIcon onClick={()=> setShowMenu(!showMenu)}>
                 {
@@ -26,6 +25,38 @@ export const Navbar = () => {
                         <div>
                             <FaHome/>
                             Home
+                        </div>
+                    </MenuItemLink>
+                </MenuItem>
+                <MenuItem onClick={()=> setShowMenu(!showMenu)}>
+                    <MenuItemLink to="/publications">
+                        <div>
+                            <FaBook/>
+                            Scientific Publications
+                        </div>
+                    </MenuItemLink>
+                </MenuItem>
+                <MenuItem onClick={()=> setShowMenu(!showMenu)}>
+                    <MenuItemLink to="/academy">
+                        <div>
+                            <FaArchway/>
+                            Academy
+                        </div>
+                    </MenuItemLink>
+                </MenuItem>
+                <MenuItem onClick={()=> setShowMenu(!showMenu)}>
+                    <MenuItemLink to="/devblog">
+                        <div>
+                            <FaBlog/>
+                            Dev Blog
+                        </div>
+                    </MenuItemLink>
+                </MenuItem>
+                <MenuItem onClick={()=> setShowMenu(!showMenu)}>
+                    <MenuItemLink to="/events">
+                        <div>
+                            <FaRegCalendar/>
+                            Events
                         </div>
                     </MenuItemLink>
                 </MenuItem>

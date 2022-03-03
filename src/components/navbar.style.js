@@ -22,13 +22,8 @@ export const LogoContainer = styled.div`
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    p {
-        &:nth-child(2){
-            color: #fff;
-        }
-    }
     img{
-        width: 50px;
+        width: 60px;
         height: 50px;
         margin-right: 0.5rem;
     }
@@ -37,7 +32,6 @@ export const LogoContainer = styled.div`
 export const Menu = styled.ul`
     height: 100%;
     display: flex;
-    justify-content: space-between;
     list-style: none;
     z-index: 1;
 
@@ -72,7 +66,7 @@ export const MenuItemLink = styled(NavLink)`
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0.5rem 2.5rem;
+    padding: 0.2rem 2.2rem;
     font-weight: 300;
     cursor: pointer;
     color: #10BCE3;
@@ -111,7 +105,7 @@ export const MenuItemLink = styled(NavLink)`
         width: 100%;
 
         div {
-            width: 20%;
+            width: 30%;
             justify-content: left;
             svg{
                 display: flex;
@@ -121,7 +115,7 @@ export const MenuItemLink = styled(NavLink)`
 
     @media screen and (max-width: 500px){
         div {
-            width: 50%;
+            width: 70%;
         }
     }
 
