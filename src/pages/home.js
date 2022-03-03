@@ -3,7 +3,6 @@ import {gsap} from 'gsap';
 import { Container, ContainerImg, ContainerInput, ContainerText, Wrapper } from './home.style';
 import { Title } from '../components/title';
 import Transition from '../components/transition';
-import Imagen from './bandera.png';
 
 const Home = () => {
     let parraf = useRef(null);
@@ -38,7 +37,7 @@ const Home = () => {
                     </p>
                 </ContainerText>
                 <ContainerImg>
-                    <img ref={el => image = el} src={Imagen} alt=''/>
+                    <img ref={el => image = el} src='./bandera.png' alt=''/>
                 </ContainerImg>
                 <ContainerInput ref={el => input = el}>
                     <p>Enter you email to get Started!</p>
