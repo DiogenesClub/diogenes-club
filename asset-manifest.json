@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/diogenes-club/static/css/main.a8061995.css",
-    "main.js": "/diogenes-club/static/js/main.c126f5ad.js",
+    "main.js": "/diogenes-club/static/js/main.bfca4cf3.js",
     "static/js/787.34981071.chunk.js": "/diogenes-club/static/js/787.34981071.chunk.js",
     "index.html": "/diogenes-club/index.html",
     "main.a8061995.css.map": "/diogenes-club/static/css/main.a8061995.css.map",
-    "main.c126f5ad.js.map": "/diogenes-club/static/js/main.c126f5ad.js.map",
+    "main.bfca4cf3.js.map": "/diogenes-club/static/js/main.bfca4cf3.js.map",
     "787.34981071.chunk.js.map": "/diogenes-club/static/js/787.34981071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8061995.css",
-    "static/js/main.c126f5ad.js"
+    "static/js/main.bfca4cf3.js"
   ]
 }
