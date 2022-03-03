@@ -22,7 +22,7 @@ const Home = () => {
         .from(parraf, {
             x: -50, stagger: 0.3
         })
-        .from(image, {x: 60, y:-64, stagger:0.3}, "-=0.2")
+        .from(image, {x: 60, y:-64, stagger:0.3}, "-=0.9")
     })
     return(
         <Container>
@@ -35,7 +35,7 @@ const Home = () => {
                     </p>
                 </ContainerText>
                 <ContainerImg>
-                    <img ref={el => image = el} src='./imagen1.jpg' alt=''/>
+                    <img ref={el => image = el} src='./bandera.png' alt=''/>
                 </ContainerImg>
             </Wrapper>
         </Container>
