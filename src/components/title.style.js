@@ -5,12 +5,11 @@ export const H1 = styled.h1`
     text-align: center;
     color: #eee;
     text-shadow: 1px 2px 7px rgba(0, 0, 0, 0.6);
-    font-size: 6rem;
+    font-size: 3rem;
     font-family: 'Nunito';
     line-height: 120%;
     @media screen and (max-width: 960px){
         width: 90%;
-        font-size: 3rem;
     }
 `;
 
