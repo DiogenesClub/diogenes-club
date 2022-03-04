@@ -69,10 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `npm commands`
-
-npm install react-icons styled-components react-router-dom --save
-
 ### Github Pages
 
 [Diógenes Club Pages](https://diogenesclub.github.io/diogenes-club/)
+
+## Packages
+
+React version 17
+React Icons version 4
+Styled-Component version 5
+React Router Dom version 6
+gsap version 3
