@@ -1,13 +1,13 @@
 import React from 'react'
 import { Button, Container, Content, Title } from './card.style'
 
-const Card = () => {
+const Card = ({title, description, url}) => {
   return (
     <Container>
         <Content>
-            <Title>Title</Title>
-            <p>Ut nulla incididunt irure commodo officia ea laborum ex officia mollit exercitation.</p>
-            <Button>Start</Button>
+            <Title>{title}</Title>
+           <p>{description}</p>
+            <Button to={`/post/${url}`}>More</Button>
         </Content>
     </Container>
   )

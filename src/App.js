@@ -11,6 +11,7 @@ import Publications from './pages/publication';
 import Academy from './pages/academy';
 import DevBlog from './pages/dev-blog';
 import Events from './pages/event';
+import Post from './components/post';
 
 const Routes = () => {
   let routes = useRoutes([
@@ -20,6 +21,7 @@ const Routes = () => {
     {path: "/academy", element:<Academy/>},
     {path: "/devblog", element: <DevBlog/>},
     {path: "/events", element:<Events/>},
+    {path: "/post/:id", element:<Post/>},
     { path:"*", element: <Navigate to="/"/>}
   ]);
   return routes;
@@ -29,7 +31,9 @@ function App() {
   return (
     <Router>
         <Navbar/>
-          <Routes/>
+        <div className='app'>
+        <Routes/>
+        </div>
     </Router>
   );
 }

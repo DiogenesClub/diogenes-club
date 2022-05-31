@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
     display:inline-table;
@@ -33,12 +34,14 @@ export const Title = styled.div`
     margin-bottom: 15px;
 `;
 
-export const Button = styled.button`
+export const Button = styled(NavLink)`
     flex: 0 0 auto;
     height: 40px;
-    padding: 0 2rem;
+    width: 90%;
     margin-top: 10px;
+    font-size: 20px;
     border: 0;
+    text-decoration: none;
     border-radius: 20px;
     color: white;
     background: #3DD6AF;

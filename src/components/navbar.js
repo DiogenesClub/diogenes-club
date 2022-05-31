@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Container, Menu, LogoContainer, MenuItem, MenuItemLink, Wrapper, MobileIcon } from './navbar.style'
 import { FaBars, FaHome, FaTimes, FaUserAlt, FaRegCalendar, FaBlog, FaArchway, FaBook } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
-import Imagen from './../assets/bandera.png';
 
 export const Navbar = () => {
     const [ showMenu, setShowMenu] = useState(false);
@@ -11,7 +10,7 @@ export const Navbar = () => {
         <Wrapper>
             <IconContext.Provider value={{style:{fontSize:"2em"}}}>
             <LogoContainer>
-                <img src={Imagen} alt=''/>
+                <img src={process.env.PUBLIC_URL + "/logo.png"} alt='Logo'/>
             </LogoContainer>
             <MobileIcon onClick={()=> setShowMenu(!showMenu)}>
                 {

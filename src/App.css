@@ -6,3 +6,6 @@
 */
 
 /* simple - enter transition 300ms, exit 150ms */
+.app {
+ margin: 10px;
+}

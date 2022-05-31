@@ -75,8 +75,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Packages
 
-React version 17
-React Icons version 4
-Styled-Component version 5
-React Router Dom version 6
-gsap version 3
+React version `17`
+
+React Icons version `4`
+
+Styled-Component version `5`
+
+React Router Dom version `6`
+
+gsap version `3`
